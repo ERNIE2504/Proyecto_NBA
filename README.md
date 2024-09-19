@@ -1,5 +1,5 @@
 # Proyecto_NBA
-Este proyecto toma a los jugadores activos del 2024 de la NBA de los 30 equipos existentes y los va ordenando según el usuario quiera buscar las estadísticas de los jugadores
+Este proyecto toma a los jugadores activos del 2024 de la NBA de los 30 equipos existentes y los va ordenando según el usuario quiera buscar las estadísticas de los jugadores. 
 Hay 8 posibilidades de elección: Más puntos anotados, más triples encestados, más tiros libres encestados, más asistencias, más bloqueos, más altos, más anillos ganados y más mvp´s ganados  
 > Un ejemplo sería:
 >
