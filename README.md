@@ -13,7 +13,8 @@ Se implementó el algoritmo de ordenamiento merge sort que lo ordena de mayor a 
 Se implementó el uso del Árbol AVL, este se caracteriza por estar balanceado, por lo que incluye las rotaciones necesarias para mantener este balance y regresar a los jugadores de manera descendente, esto quiere decir de mayor a menor.
 
 ### Cambios del primer avance:
-Se modificó que el programa siga ejecutándose hasta que el usuario quiera salir, en vez de ejecutarlo cada vez que quieras ver algo diferente
+Se modificó que el programa siga ejecutándose hasta que el usuario quiera salir, en vez de ejecutarlo cada vez que quieras ver algo diferente.
+Se agregó funciones para leer y escribir archivos de texto
 
 ## Instrucciones para ejecutar el programa:
 g++ mainAlgoritmo.cpp -o app1 (Avance 1) para compilar
