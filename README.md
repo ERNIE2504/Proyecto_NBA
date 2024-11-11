@@ -23,7 +23,7 @@ Se actualizó el comando para ejecutar el programa y se describió lo solicitado
 
 ## Instrucciones para ejecutar el programa:
 g++ -std=c++11 mainAlgoritmo.cpp -o app1   (Avance 1) para compilar
-./ app1 (Para ejecutar el programa)
+./app1 (Para ejecutar el programa)
 
 g++ -std=c++11 mainAvl.cpp -o app2 (Avance 2) para compilar
 ./app2 (Para ejecutar el programa)
