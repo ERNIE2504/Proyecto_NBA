@@ -22,7 +22,7 @@ Se agregó funciones para leer y escribir archivos de texto
 Se actualizó el comando para ejecutar el programa y se describió lo solicitado
 
 ## Instrucciones para ejecutar el programa:
-g++ -std=c++11 mainAlgoritmo.cpp -o app   (Avance 1) para compilar
+g++ -std=c++11 mainAlgoritmo.cpp -o app1   (Avance 1) para compilar
 ./ app1 (Para ejecutar el programa)
 
 g++ -std=c++11 mainAvl.cpp -o app2 (Avance 2) para compilar
