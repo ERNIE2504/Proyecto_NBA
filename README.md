@@ -11,16 +11,21 @@ Hay 8 posibilidades de elección: Más puntos anotados, más triples encestados,
 Se implementó el algoritmo de ordenamiento merge sort que lo ordena de mayor a menor las estadisticas de los jugadores
 ## Descripción Avance 2:
 Se implementó el uso del Árbol AVL, este se caracteriza por estar balanceado, por lo que incluye las rotaciones necesarias para mantener este balance y regresar a los jugadores de manera descendente, esto quiere decir de mayor a menor.
+## Descripción Avance 3:
+Se agregó la lectura y escritura de datos en un archivo .txt
 
 ### Cambios del primer avance:
 Se modificó que el programa siga ejecutándose hasta que el usuario quiera salir, en vez de ejecutarlo cada vez que quieras ver algo diferente.
 Se agregó funciones para leer y escribir archivos de texto
 
+### Cambios del segundo avance:
+Se actualizó el comando para ejecutar el programa y se describió lo solicitado
+
 ## Instrucciones para ejecutar el programa:
-g++ mainAlgoritmo.cpp -o app1 (Avance 1) para compilar
+g++ -std=c++11 mainAlgoritmo.cpp -o app   (Avance 1) para compilar
 ./ app1 (Para ejecutar el programa)
 
-g++ mainAVL.cpp -o app2 (Avance 2) para compilar
+g++ -std=c++11 mainAvl.cpp -o app2 (Avance 2) para compilar
 ./app2 (Para ejecutar el programa)
 type output.txt (para mostrar el resultado en cuanto termine el programa) 
 
@@ -65,6 +70,16 @@ Peor caso: O(n log n)
 
 ## Hace un análisis de complejidad correcto y completo de todas las estructuras de datos y cada uno de sus usos en el programa
 En el programa se pueden utilizar diferentes tipos de árboles, pero los árboles AVL se autobalancea para asegurar que todas las operaciones futuras sigan siendo rápidas. Sin embargo no ocurre lo mismo que un BST ya que en este su peor caso sería O(n), por lo que se decidirá usar un árbol AVL
+
+## Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa
+Mege sort tiene complejidad de O(n log n)
+Clases Nodo y Jugador tiene complejidad O(1) ya que es constante
+Funcion Altura es O(n)
+Carga de datos desde el archivo: O(n)
+Inserción en el árbol AVL:O(nlogn)
+Recorrido inorder: O(n)
+Complejidad total del programa: O(n logn)
+
 ## SICT0302: Toma decisiones
 ### Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente
 Para este problema se utilizará un algoritmo de tipo merge sort, para poder organizar los jugadores por orden descendente, quiere decir que de mayor a menor.
