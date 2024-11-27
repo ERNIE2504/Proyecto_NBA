@@ -36,4 +36,4 @@ Cuando ptrA llega a nullptr, se mueve a la cabeza de listB: 5.
 Cuando ptrB llega a nullptr, se mueve a la cabeza de listA: 4.
 Segundo recorrido:
 
-Ambos punteros avanzan nuevamente. Debido a las compensaciones de longitud, ahora llegan al mismo nodo 8 al mismo tiempo.
+Ambos punteros avanzan nuevamente. Debido a las compensaciones de longitud, ahora llegan al nodo 8 al mismo tiempo.
