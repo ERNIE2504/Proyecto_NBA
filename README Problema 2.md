@@ -1,4 +1,4 @@
-##
+# Problema 160. Intersection of Two Linked Lists. Plataforma leetcode
 
 ## Link al problema
 https://leetcode.com/problems/intersection-of-two-linked-lists/description/
